@@ -22,8 +22,8 @@ object WikipediaRanking {
 
   val conf: SparkConf = new SparkConf()
                               //.setMaster("spark://192.168.0.8:7077")
-                              .setMaster("local[1]")
-                              .setAppName("Wikipedia")
+                              .setMaster("local[3]")
+                              .setAppName("wikipedia")
 
   val sc: SparkContext = new SparkContext( conf )
 

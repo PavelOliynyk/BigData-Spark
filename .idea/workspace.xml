@@ -34,8 +34,8 @@
       <file leaf-file-name="WikipediaRanking.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/wikipedia/WikipediaRanking.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="659">
-              <caret line="42" column="21" lean-forward="false" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+            <state relative-caret-position="587">
+              <caret line="38" column="86" lean-forward="false" selection-start-line="38" selection-start-column="86" selection-end-line="38" selection-end-column="86" />
               <folding />
             </state>
           </provider>
@@ -906,12 +906,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1492198837591</updated>
-      <workItem from="1492198846805" duration="11309000" />
+      <workItem from="1492198846805" duration="11453000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11309000" />
+    <option name="totallyTimeSpent" value="11453000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="359" y="23" width="2194" height="1417" extended-state="0" />
@@ -1051,8 +1051,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/wikipedia/WikipediaRanking.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="659">
-          <caret line="42" column="21" lean-forward="false" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+        <state relative-caret-position="587">
+          <caret line="38" column="86" lean-forward="false" selection-start-line="38" selection-start-column="86" selection-end-line="38" selection-end-column="86" />
           <folding />
         </state>
       </provider>

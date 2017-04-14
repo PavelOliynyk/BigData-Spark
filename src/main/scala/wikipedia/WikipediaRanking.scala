@@ -36,8 +36,13 @@ object WikipediaRanking {
    *  Hint2: consider using method `mentionsLanguage` on `WikipediaArticle`
    */
   def occurrencesOfLang(lang: String, rdd: RDD[WikipediaArticle]): Int =
-      wikiRdd.aggregate(0)( { (occurrences, article) =>
-        if ( WikipediaArticle(article.title, article.text).mentionsLanguage(lang) ) occurrences + 1 else occurrences }, { (p1 : Int, p2: Int ) => p1 + p2 } )
+    {
+      for{
+        article <- rdd
+        if ( article.text.toLowerCase.split(" ").contains(lang.toLowerCase) )
+      } yield article
+    }.count().toInt
+
 
   /* (1) Use `occurrencesOfLang` to compute the ranking of the languages
    *     (`val langs`) by determining the number of Wikipedia articles that
@@ -87,7 +92,7 @@ object WikipediaRanking {
    *   several seconds.
    */
   def rankLangsReduceByKey(langs: List[String], rdd: RDD[WikipediaArticle]): List[(String, Int)] =
-    rdd.flatMap( article => { langs.filter( lang => article.text.split(" ").contains(lang) ).map((_, 1)) } ).reduceByKey(_ + _).collect().to
+    rdd.flatMap( article => { langs.filter( language => article.text.split(" ").contains( language ) ).map((_, 1) ) } ).reduceByKey(_ + _).collect().toList
 
 
   def main(args: Array[String]) {

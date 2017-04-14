@@ -28,7 +28,7 @@ object WikipediaRanking {
   val sc: SparkContext = new SparkContext( conf )
 
   // Hint: use a combination of `sc.textFile`, `WikipediaData.filePath` and `WikipediaData.parse`
-  val wikiRdd: RDD[WikipediaArticle] = sc.textFile( WikipediaData.filePath ).map(s => WikipediaData.parse(s) )
+  val wikiRdd: RDD[WikipediaArticle] = sc.textFile( WikipediaData.filePath ).map( WikipediaData.parse ).persist()
 
 
   /** Returns the number of articles on which the language `lang` occurs.
@@ -36,8 +36,8 @@ object WikipediaRanking {
    *  Hint2: consider using method `mentionsLanguage` on `WikipediaArticle`
    */
   def occurrencesOfLang(lang: String, rdd: RDD[WikipediaArticle]): Int =
-    rdd.filter(_.text.toLowerCase.split(" ").contains(lang.toLowerCase)).count().toInt
-
+      wikiRdd.aggregate(0)( { (occurrences, article) =>
+        if ( WikipediaArticle(article.title, article.text).mentionsLanguage(lang) ) occurrences + 1 else occurrences }, { (p1 : Int, p2: Int ) => p1 + p2 } )
 
   /* (1) Use `occurrencesOfLang` to compute the ranking of the languages
    *     (`val langs`) by determining the number of Wikipedia articles that

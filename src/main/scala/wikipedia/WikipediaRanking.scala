@@ -21,23 +21,25 @@ object WikipediaRanking {
     "Objective-C", "Perl", "Scala", "Haskell", "MATLAB", "Clojure", "Groovy")
 
   val conf: SparkConf = new SparkConf()
-                              //.setMaster("spark://192.168.0.8:7077")
-                              .setMaster("local[3]")
-                              .setAppName("wikipedia")
+    .setAppName("wikipedia")
+    .setMaster("local")
 
-  val sc: SparkContext = new SparkContext( conf )
+
+  val sc: SparkContext = new SparkContext(conf)
 
   // Hint: use a combination of `sc.textFile`, `WikipediaData.filePath` and `WikipediaData.parse`
-  val wikiRdd: RDD[WikipediaArticle] = sc.textFile( WikipediaData.filePath ).map( WikipediaData.parse ).persist()
+  val wikiRdd: RDD[WikipediaArticle] = sc.textFile(WikipediaData.filePath).map(WikipediaData.parse).persist()
 
 
   /** Returns the number of articles on which the language `lang` occurs.
-   *  Hint1: consider using method `aggregate` on RDD[T].
-   *  Hint2: consider using method `mentionsLanguage` on `WikipediaArticle`
-   */
+    * Hint1: consider using method `aggregate` on RDD[T].
+    * Hint2: consider using method `mentionsLanguage` on `WikipediaArticle`
+    */
   def occurrencesOfLang(lang: String, rdd: RDD[WikipediaArticle]): Int =
-      wikiRdd.aggregate(0)( { (occurrences, article) =>
-        if ( WikipediaArticle(article.title, article.text).mentionsLanguage(lang) ) occurrences + 1 else occurrences }, { (p1 : Int, p2: Int ) => p1 + p2 } )
+    rdd.aggregate(0)( (occurences, article) => if (article.text.split(" ").indexOf(lang) >= 0) occurences + 1 else occurences, (a, b) => a + b)
+
+  //rdd.aggregate(0)( { (occurrences, article) =>
+  //   if ( WikipediaArticle(article.title, article.text).mentionsLanguage( lang.toLowerCase() ) ) occurrences + 1 else occurrences }, { (p1 : Int, p2: Int ) => p1 + p2 } )
 
   /* (1) Use `occurrencesOfLang` to compute the ranking of the languages
    *     (`val langs`) by determining the number of Wikipedia articles that
@@ -47,18 +49,18 @@ object WikipediaRanking {
    *   Note: this operation is long-running. It can potentially run for
    *   several seconds.
    */
-  def rankLangs(langs: List[String], rdd: RDD[WikipediaArticle]): List[(String, Int)] = langs.map(lan => (lan, occurrencesOfLang(lan, rdd)) )
+  def rankLangs(langs: List[String], rdd: RDD[WikipediaArticle]): List[(String, Int)] = langs.map(lan => (lan, occurrencesOfLang(lan, rdd)))
 
 
   /* Compute an inverted index of the set of articles, mapping each language
    * to the Wikipedia pages in which it occurs.
    */
   def makeIndex(langs: List[String], rdd: RDD[WikipediaArticle]): RDD[(String, Iterable[WikipediaArticle])] = {
-    val articles = rdd.flatMap( article => {
+    val articles = rdd.flatMap(article => {
 
-      val langsThatMentioned = for{
+      val langsThatMentioned = for {
         lang <- langs
-        if ( article.text.split(" ").contains(lang) )
+        if (article.text.split(" ").contains(lang))
       } yield lang
 
       langsThatMentioned.map(lang => (lang, article))
@@ -74,9 +76,9 @@ object WikipediaRanking {
    */
   def rankLangsUsingIndex(index: RDD[(String, Iterable[WikipediaArticle])]): List[(String, Int)] = {
     // sort by size
-    val sortedBySize = index.mapValues( _.size )
+    val sortedBySize = index.mapValues(_.size)
     // invert order
-    sortedBySize.sortBy(  - _._2 ).collect().to
+    sortedBySize.sortBy(-_._2).collect().to
   }
 
   /* (3) Use `reduceByKey` so that the computation of the index and the ranking are combined.
@@ -86,8 +88,13 @@ object WikipediaRanking {
    *   Note: this operation is long-running. It can potentially run for
    *   several seconds.
    */
-  def rankLangsReduceByKey(langs: List[String], rdd: RDD[WikipediaArticle]): List[(String, Int)] =
-    rdd.flatMap( article => { langs.filter( language => article.text.split(" ").contains( language ) ).map((_, 1) ) } ).reduceByKey(_ + _).collect().toList
+  def rankLangsReduceByKey(langs: List[String], rdd: RDD[WikipediaArticle]): List[(String, Int)] = {
+    rdd.flatMap(
+      article => langs.filter(lang => article.text.split(" ").indexOf(lang) >= 0).map( lg => (lg, 1) )
+    ).reduceByKey(_ + _)
+      .collect().sortBy( - _._2 )
+        .toList
+  }
 
 
   def main(args: Array[String]) {
@@ -110,6 +117,7 @@ object WikipediaRanking {
   }
 
   val timing = new StringBuffer
+
   def timed[T](label: String, code: => T): T = {
     val start = System.currentTimeMillis()
     val result = code

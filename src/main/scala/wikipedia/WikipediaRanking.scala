@@ -36,7 +36,7 @@ object WikipediaRanking {
     * Hint2: consider using method `mentionsLanguage` on `WikipediaArticle`
     */
   def occurrencesOfLang(lang: String, rdd: RDD[WikipediaArticle]): Int =
-    rdd.aggregate(0)( (occurences, article) => if (article.text.split(" ").indexOf(lang) >= 0) occurences + 1 else occurences, (a, b) => a + b)
+    rdd.aggregate(0)( (occurences, article) => if (article.text.split(" ").indexOf(lang) > 0) occurences + 1 else occurences, (a, b) => a + b)
 
   //rdd.aggregate(0)( { (occurrences, article) =>
   //   if ( WikipediaArticle(article.title, article.text).mentionsLanguage( lang.toLowerCase() ) ) occurrences + 1 else occurrences }, { (p1 : Int, p2: Int ) => p1 + p2 } )
@@ -113,6 +113,10 @@ object WikipediaRanking {
 
     /* Output the speed of each ranking */
     println(timing)
+
+//    println("Press enter to stop server ...")
+//    val s = scala.io.StdIn.readLine()
+
     sc.stop()
   }
 

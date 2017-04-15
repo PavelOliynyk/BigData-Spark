@@ -20,7 +20,10 @@ object WikipediaRanking {
     "JavaScript", "Java", "PHP", "Python", "C#", "C++", "Ruby", "CSS",
     "Objective-C", "Perl", "Scala", "Haskell", "MATLAB", "Clojure", "Groovy")
 
-  val conf: SparkConf = new SparkConf().setAppName("wikipedia").setMaster("local[5]")
+  val conf: SparkConf = new SparkConf()
+                              .setAppName("wikipedia")
+                              .setMaster("spark://192.168.0.8:7077")
+                              //.setMaster("local[5]")
 
   val sc: SparkContext = new SparkContext(conf)
 

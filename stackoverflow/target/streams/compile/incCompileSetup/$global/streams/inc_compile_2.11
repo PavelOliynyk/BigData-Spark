@@ -1,0 +1,347 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/target/scala-2.11/classes
+compile options:
+1 items
+0 -> -deprecation
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.11.8
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+20 items
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> /Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/target/scala-2.11/classes/stackoverflow/Posting$.class
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> /Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/target/scala-2.11/classes/stackoverflow/Posting.class
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> /Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/target/scala-2.11/classes/stackoverflow/StackOverflow$$anonfun$1.class
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> /Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/target/scala-2.11/classes/stackoverflow/StackOverflow$$anonfun$2$$anonfun$apply$1.class
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> /Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/target/scala-2.11/classes/stackoverflow/StackOverflow$$anonfun$2.class
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> /Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/target/scala-2.11/classes/stackoverflow/StackOverflow$$anonfun$3.class
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> /Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/target/scala-2.11/classes/stackoverflow/StackOverflow$$anonfun$4.class
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> /Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/target/scala-2.11/classes/stackoverflow/StackOverflow$$anonfun$clusterResults$1.class
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> /Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/target/scala-2.11/classes/stackoverflow/StackOverflow$$anonfun$clusterResults$2.class
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> /Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/target/scala-2.11/classes/stackoverflow/StackOverflow$$anonfun$findClosest$1.class
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> /Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/target/scala-2.11/classes/stackoverflow/StackOverflow$$anonfun$kmeans$1.class
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> /Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/target/scala-2.11/classes/stackoverflow/StackOverflow$$anonfun$printResults$1.class
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> /Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/target/scala-2.11/classes/stackoverflow/StackOverflow$$anonfun$printResults$2.class
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> /Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/target/scala-2.11/classes/stackoverflow/StackOverflow$$anonfun$rawPostings$1.class
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> /Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/target/scala-2.11/classes/stackoverflow/StackOverflow$$anonfun$sampleVectors$1.class
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> /Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/target/scala-2.11/classes/stackoverflow/StackOverflow$$anonfun$sampleVectors$2.class
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> /Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/target/scala-2.11/classes/stackoverflow/StackOverflow$$anonfun$stackoverflow$StackOverflow$$reservoirSampling$1$1$$anonfun$apply$mcVI$sp$1.class
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> /Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/target/scala-2.11/classes/stackoverflow/StackOverflow$$anonfun$stackoverflow$StackOverflow$$reservoirSampling$1$1.class
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> /Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/target/scala-2.11/classes/stackoverflow/StackOverflow$.class
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> /Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/target/scala-2.11/classes/stackoverflow/StackOverflow.class
+binary dependencies:
+3 items
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/rt.jar
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> /Users/pavel/.coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-core_2.11/2.1.0/spark-core_2.11-2.1.0.jar
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> /Users/pavel/activator-dist-1.3.12/repository/org.scala-lang/scala-library/2.11.8/jars/scala-library.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+20 items
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> stackoverflow.Posting
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> stackoverflow.Posting$
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> stackoverflow.StackOverflow
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> stackoverflow.StackOverflow$
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> stackoverflow.StackOverflow$$anonfun$1
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> stackoverflow.StackOverflow$$anonfun$2
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> stackoverflow.StackOverflow$$anonfun$2$$anonfun$apply$1
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> stackoverflow.StackOverflow$$anonfun$3
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> stackoverflow.StackOverflow$$anonfun$4
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> stackoverflow.StackOverflow$$anonfun$clusterResults$1
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> stackoverflow.StackOverflow$$anonfun$clusterResults$2
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> stackoverflow.StackOverflow$$anonfun$findClosest$1
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> stackoverflow.StackOverflow$$anonfun$kmeans$1
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> stackoverflow.StackOverflow$$anonfun$printResults$1
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> stackoverflow.StackOverflow$$anonfun$printResults$2
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> stackoverflow.StackOverflow$$anonfun$rawPostings$1
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> stackoverflow.StackOverflow$$anonfun$sampleVectors$1
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> stackoverflow.StackOverflow$$anonfun$sampleVectors$2
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> stackoverflow.StackOverflow$$anonfun$stackoverflow$StackOverflow$$reservoirSampling$1$1
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> stackoverflow.StackOverflow$$anonfun$stackoverflow$StackOverflow$$reservoirSampling$1$1$$anonfun$apply$mcVI$sp$1
+used names:
+211 items
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> %
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> &&
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> *
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> +
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> -
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> /
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> <
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> <init>
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> ==
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> >
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> >=
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> ???
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> AbstractFunction6
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> Array
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> Boolean
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> ClassTag
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> Double
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> Int
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> Iterable
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> Iterator
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> List
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> Long
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> None
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> Option
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> Ordering
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> Posting
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> Predef
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> Product
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> RDD
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> Random
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> ScalaRunTime
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> Serializable
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> SparkConf
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> SparkContext
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> StackOverflow
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> Statics
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> String
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> StringContext
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> StringOps
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> Tuple2
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> Tuple4
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> Unit
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> _1
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> _2
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> _3
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> _4
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> _toString
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> a1
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> a2
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> abs
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> acceptedAnswer
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> annotation
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> anyHash
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> apache
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> apply
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> arg$macro$1
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> arg$macro$2
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> arg$macro$3
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> arg$macro$4
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> arg$macro$5
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> arg$macro$6
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> arg$macro$7
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> arr
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> as
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> asInstanceOf
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> assert
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> augmentString
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> bestIndex
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> canBuildFrom
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> centers
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> clone
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> closest
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> closestGrouped
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> clusterResults
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> clusterSize
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> collect
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> collection
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> comp1
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> comp2
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> conf
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> converged
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> count
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> debug
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> distance
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> elt
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> eq
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> euclideanDistance
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> f
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> finalizeHash
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> findClosest
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> firstLangInTag
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> flatMap
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> foreach
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> format
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> get
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> groupByKey
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> grouped
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> groupedPostings
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> hasNext
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> head
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> highScore
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> i
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> id
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> idx
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> immutable
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> intArrayOps
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> intWrapper
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> intern
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> isEmpty
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> isInstanceOf
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> item
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> iter
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> iterator
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> j
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> kmeans
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> kmeansEta
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> kmeansKernels
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> kmeansMaxIterations
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> lang
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> langLabel
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> langPercent
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> langSpread
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> langs
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> length
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> line
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> lines
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> ls
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> map
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> mapValues
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> materializeClassTag
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> math
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> means
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> median
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> medianScore
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> mix
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> ne
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> newMeans
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> next
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> nextLong
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> org
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> p
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> package
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> parentId
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> part1
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> part2
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> perLang
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> percent
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> postingType
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> printResults
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> println
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> ps
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> raw
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> rawPostings
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> rdd
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> rddToPairRDDFunctions
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> refArrayOps
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> reflect
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> res
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> reservoirSampling
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> results
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> rnd
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> runtime
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> s
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> sampleVectors
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> sc
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> scala
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> score
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> scored
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> scoredPostings
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> setAppName
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> setMaster
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> size
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> sortBy
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> spark
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> split
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> stackoverflow
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> stripMargin
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> sum
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> tag
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> tags
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> tail
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> tailrec
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> takeSample
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> tempDist
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> textFile
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> tmp
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> toDouble
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> toInt
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> toIterator
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> toLong
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> toString
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> typedProductIterator
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> unchecked
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> until
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> update
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> util
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> v1
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> v2
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> vectorPostings
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> vectors
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> while$1
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> while$2
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> while$3
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> while$4
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> withFilter
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> x
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> x$5
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> x$6
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> x$7
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> x$8
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> ||
+product stamps:
+20 items
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/target/scala-2.11/classes/stackoverflow/Posting$.class -> lastModified(1492425926000)
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/target/scala-2.11/classes/stackoverflow/Posting.class -> lastModified(1492425926000)
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/target/scala-2.11/classes/stackoverflow/StackOverflow$$anonfun$1.class -> lastModified(1492425926000)
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/target/scala-2.11/classes/stackoverflow/StackOverflow$$anonfun$2$$anonfun$apply$1.class -> lastModified(1492425926000)
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/target/scala-2.11/classes/stackoverflow/StackOverflow$$anonfun$2.class -> lastModified(1492425926000)
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/target/scala-2.11/classes/stackoverflow/StackOverflow$$anonfun$3.class -> lastModified(1492425926000)
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/target/scala-2.11/classes/stackoverflow/StackOverflow$$anonfun$4.class -> lastModified(1492425926000)
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/target/scala-2.11/classes/stackoverflow/StackOverflow$$anonfun$clusterResults$1.class -> lastModified(1492425926000)
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/target/scala-2.11/classes/stackoverflow/StackOverflow$$anonfun$clusterResults$2.class -> lastModified(1492425926000)
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/target/scala-2.11/classes/stackoverflow/StackOverflow$$anonfun$findClosest$1.class -> lastModified(1492425926000)
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/target/scala-2.11/classes/stackoverflow/StackOverflow$$anonfun$kmeans$1.class -> lastModified(1492425926000)
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/target/scala-2.11/classes/stackoverflow/StackOverflow$$anonfun$printResults$1.class -> lastModified(1492425926000)
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/target/scala-2.11/classes/stackoverflow/StackOverflow$$anonfun$printResults$2.class -> lastModified(1492425926000)
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/target/scala-2.11/classes/stackoverflow/StackOverflow$$anonfun$rawPostings$1.class -> lastModified(1492425926000)
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/target/scala-2.11/classes/stackoverflow/StackOverflow$$anonfun$sampleVectors$1.class -> lastModified(1492425926000)
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/target/scala-2.11/classes/stackoverflow/StackOverflow$$anonfun$sampleVectors$2.class -> lastModified(1492425926000)
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/target/scala-2.11/classes/stackoverflow/StackOverflow$$anonfun$stackoverflow$StackOverflow$$reservoirSampling$1$1$$anonfun$apply$mcVI$sp$1.class -> lastModified(1492425926000)
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/target/scala-2.11/classes/stackoverflow/StackOverflow$$anonfun$stackoverflow$StackOverflow$$reservoirSampling$1$1.class -> lastModified(1492425926000)
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/target/scala-2.11/classes/stackoverflow/StackOverflow$.class -> lastModified(1492425926000)
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/target/scala-2.11/classes/stackoverflow/StackOverflow.class -> lastModified(1492425926000)
+source stamps:
+1 items
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> hash(e3a84d204968a55fed21efb80dd894ded6477b8d)
+binary stamps:
+3 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1474584629000)
+/Users/pavel/.coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-core_2.11/2.1.0/spark-core_2.11-2.1.0.jar -> lastModified(1481871925000)
+/Users/pavel/activator-dist-1.3.12/repository/org.scala-lang/scala-library/2.11.8/jars/scala-library.jar -> lastModified(1477056795000)
+class names:
+3 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre/lib/rt.jar -> java.lang.Object
+/Users/pavel/.coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-core_2.11/2.1.0/spark-core_2.11-2.1.0.jar -> org.apache.spark.SparkConf$
+/Users/pavel/activator-dist-1.3.12/repository/org.scala-lang/scala-library/2.11.8/jars/scala-library.jar -> scala.Product
+internal apis:
+1 items
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAUjYYPAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAP3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cH1FHht0AAZub3RpZnlzcQB+AAwgvS9odAAJa21lYW5zRXRhc3EAfgAMJv5IrnQAC3Jhd1Bvc3Rpbmdzc3EAfgAM4X5k0nQABHdhaXRzcQB+AAxKYL+mdAAOY29weSRkZWZhdWx0JDJzcQB+AAygG18edAANJGFzSW5zdGFuY2VPZnNxAH4ADKxfRrx0AA5jb3B5JGRlZmF1bHQkNXNxAH4ADPhOYP50AAxwcm9kdWN0QXJpdHlzcQB+AAxXOrzpdAAGZXF1YWxzc3EAfgAMbJf7MnQABHRhZ3NzcQB+AAzJuOm0dAAMYXNJbnN0YW5jZU9mc3EAfgAMwttMO3QADHN5bmNocm9uaXplZHNxAH4ADLMJuwJ0AAVzY29yZXNxAH4ADHJuVjt0AAJzY3NxAH4ADBvwXPB0ABNrbWVhbnNNYXhJdGVyYXRpb25zc3EAfgAMYvE1+3QADSRpc0luc3RhbmNlT2ZzcQB+AAzzzG2IdAANU3RhY2tPdmVyZmxvd3NxAH4ADM5cnh10AAxwcmludFJlc3VsdHNzcQB+AAzIn2t9dAAFbGFuZ3NzcQB+AAyldEDFdAAIY2FuRXF1YWxzcQB+AAwe7hwudAAOY29weSRkZWZhdWx0JDRzcQB+AAzEhN2ydAALcG9zdGluZ1R5cGVzcQB+AAxJ6SMGdAAOdmVjdG9yUG9zdGluZ3NzcQB+AAx7nEv2dAAEbWFpbnNxAH4ADG7Dww50AApsYW5nU3ByZWFkc3EAfgAMpLgpp3QAEGttZWFucyRkZWZhdWx0JDRzcQB+AAx2YY0mdAANcHJvZHVjdFByZWZpeHNxAH4ADHlijuB0AAlub3RpZnlBbGxzcQB+AAyuJJKRdAALcmVhZFJlc29sdmVzcQB+AAxZefNEdAAEY29uZnNxAH4ADBJ4knd0AAljb252ZXJnZWRzcQB+AAwOSkICdAAMaXNJbnN0YW5jZU9mc3EAfgAMvT760XQABjxpbml0PnNxAH4ADJJ4O+50AAJpZHNxAH4ADKImXfN0ABBrbWVhbnMkZGVmYXVsdCQzc3EAfgAMGYhbQ3QAB1Bvc3RpbmdzcQB+AAwW7WQmdAAOc2NvcmVkUG9zdGluZ3NzcQB+AAzmBbp7dAACPT1zcQB+AAwEbKMPdAAFY2xvbmVzcQB+AAyqCjLUdAAOYWNjZXB0ZWRBbnN3ZXJzcQB+AAx4Q2fsdAANa21lYW5zS2VybmVsc3NxAH4ADGjX6Mx0AA5jb3B5JGRlZmF1bHQkM3NxAH4ADGaSQS50AARjb3B5c3EAfgAMt6kA63QACHRvU3RyaW5nc3EAfgAMRP6vvHQAD2dyb3VwZWRQb3N0aW5nc3NxAH4ADLM2Tip0AAIhPXNxAH4ADDjQNpZ0AA1zYW1wbGVWZWN0b3Jzc3EAfgAMpgeZw3QADmNsdXN0ZXJSZXN1bHRzc3EAfgAMXVMdTXQACGdldENsYXNzc3EAfgAM7Evs4XQADmNvcHkkZGVmYXVsdCQxc3EAfgAM0PcuKXQAEWV1Y2xpZGVhbkRpc3RhbmNlc3EAfgAMBZfqdnQADmNvcHkkZGVmYXVsdCQ2c3EAfgAMf5fJdHQAAm5lc3EAfgAMAxTzAXQACHBhcmVudElkc3EAfgAMWcxCLXQADmF2ZXJhZ2VWZWN0b3Jzc3EAfgAMnk3rW3QAAmVxc3EAfgAMeF4/pHQAD3Byb2R1Y3RJdGVyYXRvcnNxAH4ADKetkdZ0AAIjI3NxAH4ADBMs07d0AAhmaW5hbGl6ZXNxAH4ADAspfBZ0AAtmaW5kQ2xvc2VzdHNxAH4ADJLPpOB0AAZrbWVhbnNzcQB+AAy0HBKTdAAOcHJvZHVjdEVsZW1lbnRzcQB+AAw4o2uDdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAADc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgCVeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAVc3RhY2tvdmVyZmxvdy5Qb3N0aW5ndXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgCueHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgCtAHBzcQB+ALJzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AlUwACWluaGVyaXRlZHEAfgCVTAAHcGFyZW50c3EAfgCVeHEAfgC2c3EAfgCtAHBzcQB+ALJ1cQB+AJAAAAAAc3EAfgCtAHBzcQB+ALJ1cQB+AJAAAAAAc3EAfgCtAHBzcQB+ALJ1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAABnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+ALV0AAdQcm9kdWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgC1c3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW5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
+external apis:
+0 items
+source infos:
+1 items
+/Users/pavel/Documents/Sources/BigData-Spark/stackoverflow/src/main/scala/stackoverflow/StackOverflow.scala -> 
+AAAAAAAAAAA=
+compilations:
+1 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABW3uEWWl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAVC9Vc2Vycy9wYXZlbC9Eb2N1bWVudHMvU291cmNlcy9CaWdEYXRhLVNwYXJrL3N0YWNrb3ZlcmZsb3cvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=

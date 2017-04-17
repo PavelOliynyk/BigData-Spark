@@ -14,6 +14,10 @@ case class WikipediaArticle(title: String, text: String) {
   def mentionsLanguage(lang: String): Boolean = text.split(' ').contains(lang)
 }
 
+// Master kick-off SPARK_MASTER_IP=192.168.0.8 ./sbin/start-master.sh
+// Slaves          ./sbin/start-slave.sh  spark://192.168.0.8:7077
+
+
 object WikipediaRanking {
 
   val langs = List(
@@ -22,6 +26,17 @@ object WikipediaRanking {
 
   val conf: SparkConf = new SparkConf()
                               .setAppName("wikipedia")
+                              .set("spark.cores.max","4")
+                              //.set("spark.driver.bindAddress", "1")
+                              .set("spark.driver.host", "192.168.0.8")
+                              .set("spark.driver.port","9929")
+                              //.set("spark.driver.port", "51810")
+                              //.set("spark.fileserver.port", "51811")
+                               //.set("spark.broadcast.port", "51812")
+                              //.set("spark.replClassServer.port", "51813")
+                              //.set("spark.blockManager.port", "51814")
+                              .set("spark.executor.port", "51815")
+                              .set("spark.local.ip","192.168.0.8")
                               .setMaster("spark://192.168.0.8:7077")
                               //.setMaster("local[5]")
 

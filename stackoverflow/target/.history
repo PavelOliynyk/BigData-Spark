@@ -1,2 +1,6 @@
 reload
 compile
+clean
+test
+run
+test

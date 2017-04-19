@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectRootManager" version="2" default="true" />
-  <component name="SbtLocalSettings">
-    <option name="modificationStamps">
-      <map>
-        <entry key="$PROJECT_DIR$/../../CrystalTravel" value="2974714678000" />
-        <entry key="$PROJECT_DIR$/../../CrystalTravel/WebUI" value="2974890350000" />
-        <entry key="$PROJECT_DIR$/../../LunTravelAdmin" value="1487191711000" />
-        <entry key="$PROJECT_DIR$/../../advanced-algorithms" value="1487707760000" />
-        <entry key="$PROJECT_DIR$/../../play-slick" value="7438110395000" />
-        <entry key="$USER_HOME$/IdeaProjects/modern-web" value="1486321387000" />
-        <entry key="$USER_HOME$/IdeaProjects/play-scala-slickpg-play2auth" value="1486251022000" />
-      </map>
-    </option>
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="masterDetails">
     <states>

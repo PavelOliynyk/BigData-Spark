@@ -39,9 +39,9 @@ object StackOverflow extends StackOverflow {
 
     printResults(results)
 
-    //scala.io.StdIn.readLine()
+    scala.io.StdIn.readLine()
 
-    //sc.stop()
+    sc.stop()
   }
 }
 
@@ -144,7 +144,7 @@ class StackOverflow extends Serializable {
       case _ => None
     }
 
-    vectors.cache()
+    vectors.persist()
   }
 
 

@@ -50,8 +50,7 @@ object StackOverflow extends StackOverflow {
 class StackOverflow extends Serializable {
 
   /** Languages */
-  val langs =
-    List(
+  val langs = List(
       "JavaScript", "Java", "PHP", "Python", "C#", "C++", "Ruby", "CSS",
       "Objective-C", "Perl", "Scala", "Haskell", "MATLAB", "Clojure", "Groovy")
 
@@ -240,8 +239,7 @@ class StackOverflow extends Serializable {
   //
 
   /** Decide whether the kmeans clustering converged */
-  def converged(distance: Double) =
-    distance < kmeansEta
+  def converged(distance: Double) = distance < kmeansEta
 
 
   /** Return the euclidean distance between two points */
@@ -306,7 +304,7 @@ class StackOverflow extends Serializable {
 
     val median = closestGrouped.mapValues { vs =>
 
-      val g = vs.map(v => v._1 / langSpread ).groupBy(identity).mapValues(_.size)
+      val g = vs.map( _._1 / langSpread ).groupBy(identity).mapValues(_.size)
 
       val maxGroupIndex = g.maxBy(i => i._2)._1
 
